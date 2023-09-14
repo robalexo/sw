@@ -18,7 +18,7 @@
             margin: 0;
         }
         </style>
-        <title>GEOV</title>
+        <title>GEO-UV</title>
     </head>
     <body>
         <div id="map">
@@ -144,7 +144,7 @@
             return {
                 pane: 'pane_comunas_2',
                 opacity: 1,
-                color: 'rgba(0,0,255,1.0)',
+                color: 'rgba(255,0,0,1.0)',
                 dashArray: '',
                 lineCap: 'butt',
                 lineJoin: 'miter',
@@ -173,7 +173,7 @@
                 return this._div;
             };
             title.update = function () {
-                this._div.innerHTML = '<h2>MAPA DE CALI</h2>';
+                this._div.innerHTML = '<h2>GEOVISOR CALI</h2>';
             };
             title.addTo(map);
             var abstract = new L.Control({'position':'bottomright'});
